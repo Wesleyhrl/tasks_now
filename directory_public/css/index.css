@@ -1,0 +1,86 @@
+/****GERAL  */
+body, html{
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: #ffffff;
+}
+main{
+    padding-top: 50px;
+}
+
+/* INTRO ******/
+
+main h1{
+    margin-top: 10px !important;
+    color: #6850CA;
+    font-weight: bolder;
+}
+img#logo{
+    filter: blur();
+    width: 62px;
+    margin-top: -15px;
+    margin-right: 10px;
+}
+#img-logo{
+    margin-left: 30px;
+}
+
+/* login ******/
+main form{
+    width: 500px;
+    
+}
+main #emailHelp{
+    color: #6850CA;
+}
+main label{
+    font-weight: 600;
+    color: #6850CA;
+    font-size: 20px;
+}
+main input{
+    font-size: 18px !important;
+    font-weight: 600; 
+    color: #1D2144 !important;
+    background-color: rgba(239, 221, 211, 0) !important;
+    border: none !important;
+    border-bottom: 2px solid #6850CA !important;
+    border-radius: 0px !important;
+}
+main input:focus{
+    box-shadow: 0 0 0 0 !important;
+    border: none !important;
+    border-bottom: 2px solid #6850CA !important;
+}
+main button{
+    color: white !important;
+    background-color: #6850CA !important;
+}
+main button:hover{
+    color: white !important;
+    background-color: #431ce2 !important;
+}
+main a{
+    color: #6850CA !important;
+}
+main a:hover{
+    color:  #431ce2 !important;;
+}
+
+/** MODAL ******/
+.modal-header{
+    background: linear-gradient(to left, #6850CA, #431ce2 );
+    color: white !important;
+}
+.modal-body button{
+    color: white !important;
+    background-color: #6850CA !important;
+    border: none;
+}
+.modal-body button:hover{
+    color: white !important;
+    background-color: #431ce2 !important;
+   
+}

@@ -1,0 +1,104 @@
+/****GERAL  */
+body, html, .pagina, main{
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    height: 100%;
+    background-color: #331d4a !important;
+}
+/**** MENU MOBILE  */
+#espaço-menu-mobile{
+    height: 70px;
+}
+.navbar{
+    border: solid;
+    height: fit-content;
+    background-color: #331d4a;
+}
+.offcanvas{
+    background-color: #331d4a !important;
+}
+/**** MENU SIDE BAR  */
+#logo-side-bar {
+    padding: 20px 0px;
+    margin-bottom: 30px;
+}
+nav{
+    height: 100%;
+}
+/*** ALL MENU */
+.logo span{
+    font-size: 1.6rem;
+    margin-left: 10px;
+    font-weight: bolder;
+    color: white;
+    
+}
+.logo img {
+    margin-top: -20px;
+}
+.nav-link.active{
+    border-left: #e80560 solid 5px;
+}
+.nav-link {
+    border-left: rgba(232, 5, 96, 0) solid 5px;
+    font-size: 17px;
+    font-weight: bolder;
+    padding: 20px 8px;
+    color: white;
+}
+.nav-link i{
+    font-size: 25px;
+    margin-right: 10px;
+}
+.nav-link:visited{
+    color: white;
+}
+.nav-link:hover{
+    color: #e80560;
+    background-color: #261638;
+}
+.user-name{
+    color: white !important; 
+}
+/**** CONTEÚDO  */
+.conteudo{
+    max-height: 80% ;
+    overflow-y: auto !important; 
+    margin-top: 20px;
+    border:solid 1px #DFDFDF;
+	padding: 25px !important;
+    padding: auto;
+}
+.conteudo h4{
+    font-size: 1.8rem;
+    color: #e80560;
+}
+.conteudo i{
+    font-size: 25px;
+}
+.conteudo i:hover{
+    cursor: pointer;
+}
+
+.conteudo input{
+    margin: 20px 0px;
+} 
+.btn-primary {
+background-color: #e80560;
+border: #e80560;
+border-radius: 0;
+}
+.btn-primary:hover {
+    background-color: #cf0656;
+    
+}
+.alert-success{
+    margin-top: 10px;
+    width: fit-content;
+}
+/* MODAL APAGAR *******/
+#modal-apagar i{
+    font-size: 40px;
+}
