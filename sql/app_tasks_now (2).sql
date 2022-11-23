@@ -11,11 +11,7 @@ INSERT INTO `tb_status` (`id`, `status`) VALUES
 (1, 'pendente'),
 (2, 'realizado');
 
--- --------------------------------------------------------
 
---
--- Estrutura da tabela `tb_tarefas`
---
 
 CREATE TABLE `tb_tarefas` (
   `id` int(11) NOT NULL,
