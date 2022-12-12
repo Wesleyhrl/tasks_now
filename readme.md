@@ -5,4 +5,4 @@ Site construído em Bootstrap e totalmente funcional com algumas implementaçõe
 Além de ser dinâmico e responsivo para todos dispositivos.
 
 - @Wesleyhrl : [https://github.com/Wesleyhrl]
-- Site Online: [tasksnow.epizy.com]
+- Site Online: [http://tasksnow.epizy.com/]
